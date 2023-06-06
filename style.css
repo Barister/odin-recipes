@@ -19,6 +19,10 @@ a {
 }
 
 
+img {
+    object-fit: cover;
+}
+
 
 .brand {
     font-size: 36px;
@@ -38,6 +42,13 @@ a {
     justify-content: center;
 }
 
+.menu a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .menu img {
     max-width: 490px;
     max-height: 100%;
@@ -50,17 +61,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px 20px 0px;
-    padding: 0px 0px 20px 0px;
-    border-bottom: 1px solid lightgray;
-}
-
-.menu__el:nth-child(1) {
-    margin: 0px 20px 20px 0px;
+    gap: 20px;
+    margin: 0px 0px 20px 0px;
 }
 
 .recipe__title {
-    
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid lightgray;
 }
 
 .menu li {
