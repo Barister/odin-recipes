@@ -50,8 +50,17 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px 20px 20px 0px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.menu__el:nth-child(1) {
+    margin: 0px 20px 20px 0px;
+}
+
+.recipe__title {
+    
 }
 
 .menu li {
